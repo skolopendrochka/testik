@@ -1,0 +1,169 @@
+body {
+  min-height: 100%;
+  background-color: black;
+}
+
+.clock {
+position: absolute;
+top: -15%;
+left: 15%;
+width: 540px;
+height: 610px;
+}
+
+.ticker {
+  position: absolute;
+  top: -2%;
+  left: 13%;
+  width: 437px;
+  height: 690px;
+}
+
+.floor {
+  position: absolute;
+  height: 62%;
+  top: 100%;
+  left: 0%;
+  bottom: 50%;
+}
+
+.armchair {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+
+}
+
+.pile {
+  position: absolute;
+  width: 90%;
+  top: 150%;
+}
+
+.floor2 {
+  position: absolute;
+  top: 180%;
+  width: 100%;
+}
+
+.tablestuff {
+  position: absolute;
+  top: 55%;
+  right: 15%;
+  width: 900px;
+  height: 849px;
+}
+
+.poster {
+  position: absolute;
+  width: 340px;
+  height: 580px;
+  left: 40%;
+  top: 15%;
+  transform: rotate(-15deg);
+}
+
+.bulb_x {
+  position: absolute;
+  right: 27%;
+  top: 24%;
+  width: 100px;
+  height: 100px;
+  background: #F3C72B;
+  border-radius: 50%;
+}
+
+.light {
+  position: relative;
+  right: 20%;
+  top: 24%;
+  right: -61.5%;
+}
+
+.b {
+  position: absolute;
+  top: 290%;
+  left: 5%;
+}
+
+.a {
+  position: absolute;
+  top: 267%;
+  left: 25%;
+}
+
+.r {
+  position: absolute;
+  top: 250%;
+  left: 38%;
+}
+
+.d {
+  position: absolute;
+  top: 230%;
+  left: 48%;
+}
+
+.a_x {
+  position: absolute;
+  top: 220%;
+  left: 65%;
+}
+
+.k {
+  position: absolute;
+  top: 201%;
+  left: 75%;
+
+}
+
+.miracle {
+  position: absolute;
+  width: 70%;
+  top: 190%;
+  left: 0%;
+}
+
+.flashlights {
+  position: absolute;
+  width: 40%;
+  top: 190%;
+  left: 0%;
+}
+
+.bear {
+  position: absolute;
+  right: 25%;
+  top: 15%;
+  width: 88px;
+  height: 139px;
+  transform: rotate(19deg);
+}
+
+#box {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    width: 220px;
+    height: 220px;
+    background: #8B5424;
+    border: 10px double white;
+    transform: rotate(75deg);
+}
+
+.pile2 {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    top: 360%;
+    justify-content: center;
+
+}
+
+.sign {
+  position: absolute;
+  right: 300%;
+  top: -25%;
+  width: 80%;
+  transform: rotate(50deg);
+}

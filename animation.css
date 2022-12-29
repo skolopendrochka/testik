@@ -1,0 +1,138 @@
+.ticker {
+ animation: clockticker-rotate 2.25s infinite alternate linear;
+}
+
+.bulb_x {
+  animation: blinnk 5s infinite 1s alternate-reverse ease-in-out;
+}
+
+.flashlights {
+  animation: flashlights 5s infinite alternate linear;
+}
+
+.b {
+  animation: b_rotate 2s infinite alternate linear;
+}
+
+.a {
+  animation: a_rotate 1s infinite alternate ease;
+}
+
+.r {
+  animation: r_rotate 1s infinite alternate ease-in;
+}
+
+.d {
+  animation: d_rotate 1s infinite alternate ease-in-out;
+}
+
+.a_x {
+  animation: ax_rotate 1s infinite alternate ease;
+}
+
+.k {
+  animation: k_rotate 1s infinite alternate ease;
+}
+
+@keyframes clockticker-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+
+  0% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes blinnk {
+  50% {
+  opacity: 0;
+  }
+}
+
+@keyframes flashlights {
+  50% {
+  opacity: 0;
+  }
+}
+
+@keyframes b_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+
+  0% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes a_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+
+  0% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes r_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+
+  0% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes d_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+
+  0% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes ax_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+
+  0% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes k_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-16deg);
+  }
+
+  0% {
+    transform: rotate(16deg);
+  }
+}
