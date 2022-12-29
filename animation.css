@@ -7,7 +7,7 @@
 }
 
 .flashlights {
-  animation: flashlights 5s infinite alternate linear;
+  animation: flashlights 5s infinite alternate ease;
 }
 
 .b {
