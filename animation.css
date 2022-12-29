@@ -7,7 +7,7 @@
 }
 
 .flashlights {
-  animation: flashlights 20ms infinite alternate ease;
+  animation: flashlights 5s infinite alternate linear;
 }
 
 .b {
@@ -162,4 +162,3 @@
     transform: rotate(-360deg);
   }
 }
-
