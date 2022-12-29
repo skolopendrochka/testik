@@ -34,6 +34,10 @@
   animation: k_rotate 1s infinite alternate ease;
 }
 
+.sign {
+  animation: sign_rotate 1s infinite 1s alternate ease;
+}
+
 @keyframes clockticker-rotate {
   0% {
     transform: rotate(0deg);
@@ -134,5 +138,14 @@
 
   0% {
     transform: rotate(16deg);
+  }
+}
+
+@keyframes sign_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-80deg);
   }
 }
