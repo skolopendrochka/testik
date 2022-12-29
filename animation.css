@@ -38,6 +38,10 @@
   animation: sign_rotate 1s infinite 1s alternate ease;
 }
 
+.poster:hover {
+  animation: rotate-btn .5s linear 3;
+}
+
 @keyframes clockticker-rotate {
   0% {
     transform: rotate(0deg);
@@ -149,3 +153,13 @@
     transform: rotate(-80deg);
   }
 }
+
+@keyframes rotate-btn {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
